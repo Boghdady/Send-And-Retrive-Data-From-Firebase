@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.index.confirmationdialog.SendDataToFirebase">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID"
+        android:layout_marginTop="20dp"
+        android:id="@+id/edId"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:layout_marginTop="20dp"
+        android:id="@+id/edName"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Power"
+        android:layout_marginTop="20dp"
+        android:id="@+id/edPower"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Speed"
+        android:layout_marginTop="20dp"
+        android:id="@+id/edSpeed"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Stamina"
+        android:layout_marginTop="20dp"
+        android:id="@+id/edStamina"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="enter data inyo server"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnEnter"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Move To Another Activity"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnSwitchActivity"/>
+
+
+</LinearLayout>
